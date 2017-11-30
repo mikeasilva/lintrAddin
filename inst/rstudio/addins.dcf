@@ -1,0 +1,4 @@
+Name: Lint Document
+Description: Runs lintr's lint command on the current document.
+Binding: lintrAddin
+Interactive: true
