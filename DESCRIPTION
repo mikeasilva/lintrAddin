@@ -1,0 +1,19 @@
+Package: lintrAddin
+Type: Package
+Title: Integrates lintr with RStudio
+Version: 0.1.0
+Authors@R: c(
+    person("Silva", "Michael", , "msilva@cgr.org", role = c("aut", "cre"))
+    )
+Encoding: UTF-8
+Description: Use lintr within RStudio seamlessly.
+URL: https://bitbucket.org/promising-solutions/lintrAddin
+BugReports: https://bitbucket.org/promising-solutions/lintrAddin/issues?status=new&status=open
+Depends:
+    R (>= 3.0.2)
+Imports:
+    lintr,
+    rstudioapi
+License: GPL (>= 2)
+RoxygenNote: 6.0.1
+LazyData: true
